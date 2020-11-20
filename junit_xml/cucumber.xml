@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.10808">
+    <testcase classname="YouTube channel name validation" name="YouTube channel name validations" time="0.10808">
+        <failure message="java.lang.NullPointerException&#10;&#9;at com.testautomation.Listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:41)&#10;&#9;at com.testautomation.StepDef.YoutubeChannelValidationsStepDef.open_chrome_browser_with_URL(YoutubeChannelValidationsStepDef.java:42)&#10;&#9;at ✽.Given OPen chrome browser with URL(YoutubeChannelValidation.feature:5)&#10;">
+            <![CDATA[Given OPen chrome browser with URL..........................................failed
+When Search selenium tutorial...............................................skipped
+And CLick on channel name...................................................skipped
+Then Validate channel name..................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.testautomation.Listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:41)
+	at com.testautomation.StepDef.YoutubeChannelValidationsStepDef.open_chrome_browser_with_URL(YoutubeChannelValidationsStepDef.java:42)
+	at ✽.Given OPen chrome browser with URL(YoutubeChannelValidation.feature:5)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

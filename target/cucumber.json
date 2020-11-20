@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "YouTube channel name validations",
+        "description": "",
+        "id": "youtube-channel-name-validation;youtube-channel-name-validations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108080402,
+              "error_message": "java.lang.NullPointerException\n\tat com.testautomation.Listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:41)\n\tat com.testautomation.StepDef.YoutubeChannelValidationsStepDef.open_chrome_browser_with_URL(YoutubeChannelValidationsStepDef.java:42)\n\tat ✽.Given OPen chrome browser with URL(YoutubeChannelValidation.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "OPen chrome browser with URL",
+            "match": {
+              "location": "YoutubeChannelValidationsStepDef.open_chrome_browser_with_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Search selenium tutorial",
+            "match": {
+              "location": "YoutubeChannelValidationsStepDef.search_selenium_tutorial()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "CLick on channel name",
+            "match": {
+              "location": "YoutubeChannelValidationsStepDef.click_on_channel_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Validate channel name",
+            "match": {
+              "location": "YoutubeChannelValidationsStepDef.validate_channel_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "YouTube channel name validation",
+    "description": "",
+    "id": "youtube-channel-name-validation",
+    "keyword": "Feature",
+    "uri": "YoutubeChannelValidation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ExtentReport"
+      }
+    ]
+  }
+]
